@@ -4,13 +4,19 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="final" />
+          <element id="module-output" name="jfinal" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.jfinal:jfinal:3.2" />
+          <element id="library" level="project" name="Maven: cglib:cglib-nodep:3.2.5" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.16" />
+          <element id="library" level="project" name="Maven: com.jfinal:cos:2017.5" />
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/final/target/final-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/jfinal/target/final-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="final/web/Web" />
+      <element id="javaee-facet-resources" facet="jfinal/web/Web" />
     </root>
   </artifact>
 </component>
