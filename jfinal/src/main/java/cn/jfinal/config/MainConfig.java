@@ -42,9 +42,8 @@ public class MainConfig extends JFinalConfig {
     }
 
     public void configHandler(Handlers handlers) {
-
     }
-    public static void main(String[] args){
-        JFinal.start("src/main/webapp",80,"/",5);
+    public static void main(String[] args) {
+        JFinal.start("src/main/webapp", 80, "/", 5);
     }
 }
